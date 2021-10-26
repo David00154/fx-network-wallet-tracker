@@ -56,7 +56,7 @@ export default function Index() {
          <Divider orientation="vertical" />
        </Stack>
        </ListItem>
-       {new Date().getMinutes() == 28 && (
+       {new Date().getMinutes() >= 28 && (
           <>
              <ListItem>
                <ListIcon as={MdCheckCircle} color="green.500" />
@@ -72,7 +72,7 @@ export default function Index() {
              </ListItem>
           </>
         )}
-       {new Date().getMinutes() == 31 && (
+       {new Date().getMinutes() >= 31 && (
           <>
             <ListItem>
              <ListIcon as={MdError} color="red.500" />
