@@ -178,7 +178,7 @@ export default function Index() {
                  Verifying address
                  <Stack direction="row" h="45px" px="2">
                    <Divider orientation="vertical" />
-                   <Text pl="1" fontWeight="400">
+                   <Text fontWeight="400">
                      The address is been verified, we will send an email to you once it's completed.
                    </Text>
                  </Stack>
@@ -197,7 +197,7 @@ export default function Index() {
                 {level == "stage3" && (
                     <>
                       <Text pl="2" py="1" fontWeight="400">
-                       An error was found!. Contact coinbase and explain the situation.
+                       Your bitcoin wallet isn't activated for such transactions do well to contact our customer service and follow the following  instructions.
                      </Text>
                     </>
                 )}
